@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exponencial.Page1"
+             Title="Page1">
+    <VerticalStackLayout Spacing="3">
+        <HorizontalStackLayout>
+            <Button Text="Exp" Clicked="BtnExp" BackgroundColor="Blue"/>
+            
+        </HorizontalStackLayout>
+        <Entry x:Name="dato1" WidthRequest="100" HeightRequest="50"/>
+        <Label x:Name="result" Text="0" WidthRequest="100" HeightRequest="100"/>
+    </VerticalStackLayout>
+</ContentPage>
